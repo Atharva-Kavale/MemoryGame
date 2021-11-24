@@ -1,0 +1,139 @@
+body
+{
+    overflow: hidden; 
+}
+#container
+{
+    position: relative;
+    top: -40px;
+    border: solid;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+#blankImg
+{
+    
+    height: 528px;
+
+    margin: 100px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+
+    position: relative;
+    top: -695px;
+}
+.photos
+{
+    margin: 15px 15px;
+    height: 150px;
+    width: 100px;
+}
+.coverImg
+{
+    position: fixed;
+    margin: 15px 10px;
+    height: 170px;
+    width: 130px;
+    transition: 0.3s;
+}
+.coverImg:hover
+{
+    box-shadow: 0px 0px 10px 5px;
+    color: rgba(0,0,0,0.64);
+    transition: 0.3s;
+}
+.btn
+{
+    font-size: 30px;
+    font-weight: bold;
+    
+    color: white;
+    background-color: green;
+    border: 1px solid;
+
+    margin: 0 50px;
+    padding: 20px;
+    
+    transition-duration: 0.7s;
+}
+.btn:hover
+{
+    cursor: pointer;
+    color: green;
+    background-color: white;
+}
+#resetGame
+{
+    position: fixed;
+    top: 80px;
+}
+#showBtn
+{
+    position: fixed;
+    top: 80px;
+    left: 79%;
+}
+
+.score
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 100px auto;
+    width: 210px;
+}
+.coverDiv
+{
+    transition-duration: 0.8s;    
+}
+.hide
+{
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+.win-bg
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+#fire
+{
+    margin: 150px 350px;
+}
+#dance
+{
+    position: relative;
+    top: -250px;
+    width: 1000px;
+    height: 350px;
+    margin: 0 350px;
+}
+
+.choice
+{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+table, th, td
+{
+    border: solid 1px;
+    background: white;
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+}
+table
+{
+    margin: 250px auto;
+}

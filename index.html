@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mini Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p class="score"><span id="marks">Score : 0</span><br>Time : <span id="timer">02:00</span></p>
+        <div id="container">
+            
+        </div>
+        <div id="blankImg">
+            
+        </div>
+        <button class="btn" id="resetGame">New Game</button>
+        <button class="btn" id="showBtn">Show Cards</button>
+        
+        <div class="win-bg">
+            <img src="images/win/firework.gif" width="800" id="fire">
+            <img src="images/win/merge.gif" id="dance">
+        </div>
+
+        <div class="choice">
+            <table>
+                <tr>
+                    <th>Theme</th>
+                </tr>
+                <tr>
+                    <td onclick="theme(1)">Cartoon</td>
+                </tr>
+                <tr>
+                    <td onclick="theme(2)">Marvel</td>
+                </tr>
+                <tr>
+                    <td onclick="theme(3)">Pirates of Caribbean</td>
+                </tr>
+            </table>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
