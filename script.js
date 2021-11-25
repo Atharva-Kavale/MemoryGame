@@ -38,7 +38,7 @@ function theme(choice)
         loc = "images/poc/"
     }
     document.body.style.background = `url(${loc}bg1.jpg) fixed`
-    document.body.style.backgroundSize = "cover"
+    document.body.style.backgroundSize = "100% 100%"
     
       
     let tphoto = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png", "10.png", "11.png", "12.png","13.png","14.png","15.png"]
