@@ -1,12 +1,13 @@
 body
 {
     overflow: hidden; 
+    background: url(/images/default.png);
+    background-size: 217px 200px;
 }
 #container
 {
     position: relative;
     top: -40px;
-    border: solid;
     margin: 100px auto;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
@@ -77,6 +78,7 @@ body
 
 .score
 {
+    display: none;
     font-size: 30px;
     font-weight: bold;
     margin: 100px auto;
