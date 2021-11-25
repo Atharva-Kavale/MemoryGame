@@ -59,6 +59,10 @@ shuffleBtn.addEventListener('click', function () //shuffle when clicked
 function newGame()
 {
     alert("There is timer to this game, so keep watch on it.\nIt will start once you click any card.")
+    
+    document.querySelector(".score").style.display = "block"
+    container.style.border = "solid"
+    
     timer.innerText = "02:00"
     timerStart = 0
     t1 = timer.innerText.split(":") 
